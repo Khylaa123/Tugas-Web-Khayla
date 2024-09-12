@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Sederhana</title>
+    <style>
+       
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .article {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+        }
+
+        
+        .article h2 {
+            font-size: 18px;
+            color: #2a2a2a;
+            margin-bottom: 10px;
+        }
+
+        .article p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        
+        nav {
+            margin: 15px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header style="background-color: #333; color: white; text-align: center; padding: 20px;">
+        <h1>Pemrograman Web HTML</h1>
+        <p>Salah satu bahasa pengkodean atau pemrograman yang digunakan untuk membuat halaman website yang ditampilkan pada web browser.</p>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="article" id="html">
+            <h2>HTML</h2>
+            <p>HTML adalah singkatan dari Hypertext Markup Language. HTML merupakan bahasa pengkodean atau pemograman yang digunakan untuk membuat halaman website yang ditampilkan pada web browser.</p>
+            <p>HTML diciptakan oleh Sir Tim Berners-Lee pada akhir tahun 1991 namun tidak dirilis secara resmi. HTML versi pertama dirilis pada tahun 1993.
+                Cara kerja bahasa pemrograman HTML
+                Pertama-tama kamu harus membuat dokumen HTML pada aplikasi editor HTML seperti Visual Studio, Sublime Text dan lain-lainnya , lalu menyimannya dengan format html atau htm. File HTML dibuat bisa lebih dari satu tergantung kebutuhan file yang akan diperlukan.</p> 
+                
+                <p> yang telah dibuat ini berisi Halaman Utama , kontak , isi Website dan lain-lain.
+                File HTML dapat dibuka oleh web browser seperti Google Chrome , Mozilla Firefox, Internet Explore dan masih banyak lagi. Kemudian, agar dapat diakses oleh banyak orang kamu harus menyewa layanan Hosting website dan mengupload file HTML pada halaman hosting yang dapat kamu akses pada cpanel.
+                File HTML yang sudah terupload, maka browser akan merender file HTML menjadi halaman website sehingga kamu dan pengunjung web lain dapat mengaksesnya melalui internet.</p>
+        </div>
+
+        <div class="article" id="css">
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain dan mengatur tampilan halaman web. CSS memungkinkan Anda untuk mengubah warna, font, layout, dan elemen lainnya.</p>
+            <p> Fungsi Cascading Style Sheet (CSS) 
+                Setelah mengerti pengertiannya, maka Anda juga harus paham dengan fungsinya. Ada beberapa fungsi yang harus Anda ketahui pada saat menggunakan Cascading Style Sheet (CSS), yaitu:</p>
+                
+                <p> 1. Mempercepat Loading Pada Halaman Website 
+                
+                Bagi Anda yang ingin mengatur tampilan website bisa dengan menggunakan CSS. Bahkan, untuk kecepatan loading website juga bisa meningkat dengan menggunakan alat tersebut. 
+                
+                Pada saat menggunakan Cascading Style Sheet (CSS),Anda bisa menuliskan satu kode di beberapa halaman sekaligus. Tentu saja dengan begitu bisa mempercepat proses loading menjadi lebih kecil.</p>
+                
+                <p> 2. Memudahkan Dalam Pengelolaan Kode 
+                
+                Ketika Anda menggunakan Cascading Style Sheet (CSS) tidak perlu lagi melakukan perubahan kode, untuk melakukan perubahan tampilan. Contohnya, pada saat Anda ingin melakukan perubahan tampilan. 
+                
+                Maka, untuk langkah yang diambil adalah edit kode CSS berhubungan dengan latar belakang. Perubahan kali ini langsung diterapkan pada semua halaman website. </p>
+                
+                <p> 3. Memberikan Banyak Penawaran Variasi Tampilan 
+                
+                Html merupakan bahasa yang dapat dipergunakan untuk mengatur tampilan pada halaman website. Akan tetapi, jumlahnya masih sangat terbatas. </p>
+        </div>
+
+        <div class="article" id="javascript">
+            <h2>JavaScript</h2>
+            <p>JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. JavaScript dapat digunakan untuk mengontrol perilaku elemen web, memvalidasi input, dan banyak lagi.</p>
+            <p>kegunaan JavaScript
+                Secara historis, halaman web statis, mirip dengan halaman dalam buku. Halaman statis terutama menampilkan informasi dalam tata letak tetap dan tidak melakukan semua yang kita harapkan saat ini dari situs web modern. JavaScript muncul sebagai teknologi sisi peramban untuk menjadikan aplikasi web lebih dinamis. Dengan JavaScript, browser dapat merespons interaksi pengguna dan mengubah tata letak konten di halaman web.</p>
+                
+                <p>Ketika bahasanya sudah mapan, developer JavaScript membuat pustaka, kerangka kerja, serta praktik pemrograman, dan mulai menggunakannya di luar browser web. Saat ini, Anda dapat menggunakan JavaScript untuk pengembangan sisi klien dan sisi server. Kami menyediakan beberapa kasus penggunaan umum di subbagian berikut:
+                
+                Secara historis, halaman web statis, mirip dengan halaman dalam buku. Halaman statis terutama menampilkan informasi dalam tata letak tetap dan tidak melakukan semua yang kita harapkan saat ini dari situs web modern. JavaScript muncul sebagai teknologi sisi peramban untuk menjadikan aplikasi web lebih dinamis. Dengan JavaScript, browser dapat merespons interaksi pengguna dan mengubah tata letak konten di halaman web.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        <p>&copy; 2024 Pemrograman Web HTML. Copyright.</p>
+    </footer>
+
+</body>
+</html>
